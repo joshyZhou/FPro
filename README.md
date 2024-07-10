@@ -1,11 +1,42 @@
-# FPro
-Seeing the Unseen: A Frequency Prompt Guided Transformer for Image Restoration (ECCV 2024)
+# Seeing the Unseen: A Frequency Prompt Guided Transformer for Image Restoration (ECCV 2024)
 
 [Shihao Zhou](https://joshyzhou.github.io/), [Jinshan Pan](https://jspan.github.io/), [Jinglei Shi](https://jingleishi.github.io/), [Duosheng Chen](https://github.com/Calvin11311), [Lishen Qu](https://github.com/qulishen) and [Jufeng Yang](https://cv.nankai.edu.cn/)
 
 #### News
 - **Jul 02, 2024:** FPro has been accepted to ECCV 2024 :tada: 
 <hr />
+
+
+## Training
+### Derain
+To train FPro on SPAD, you can run:
+```sh
+./train.sh Deraining/Options/Deraining_FPro_spad.yml
+```
+### Dehaze
+To train FPro on SOTS, you can run:
+```sh
+./train.sh Dehaze/Options/RealDehazing_FPro.yml
+```
+### Deblur
+To train FPro on GoPro, you can run:
+```sh
+./train.sh Motion_Deblurring/Options/Deblurring_FPro.yml
+```
+### Deraindrop
+To train FPro on AGAN, you can run:
+```sh
+./train.sh Deraining/Options/RealDeraindrop_FPro.yml
+```
+### Demoire 
+To train FPro on TIP18, you can run:
+```sh
+./train.sh Demoiring/Options/RealDemoiring_FPro.yml
+```
+
+## Evaluation
+To evaluate FPro, you can refer commands in 'test.sh':
+For evaluate on each dataset, you should uncomment corresponding line.
 
 
 ## Results
