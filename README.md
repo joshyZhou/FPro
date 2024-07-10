@@ -35,12 +35,13 @@ To train FPro on TIP18, you can run:
 ```
 
 ## Evaluation
-To evaluate FPro, you can refer commands in 'test.sh':
+To evaluate FPro, you can refer commands in 'test.sh'
+
 For evaluate on each dataset, you should uncomment corresponding line.
 
 
 ## Results
-Experiments are performed for different image processing tasks including, rain streak removal, raindrop removal, haze removal, motion blur removal, moire pattern removal. 
+Experiments are performed for different image processing tasks including, rain streak removal, raindrop removal, haze removal, motion blur removal, and moire pattern removal. 
 Here is a summary table containing hyperlinks for easy navigation:
 <table>
   <tr>
