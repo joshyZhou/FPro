@@ -7,6 +7,45 @@ Seeing the Unseen: A Frequency Prompt Guided Transformer for Image Restoration (
 - **Jul 02, 2024:** FPro has been accepted to ECCV 2024 :tada: 
 <hr />
 
+
+## Results
+Experiments are performed for different image processing tasks including, rain streak removal, raindrop removal, haze removal, motion blur removal, moire pattern removal. 
+Here is a summary table containing hyperlinks for easy navigation:
+<table>
+  <tr>
+    <th align="left">Benchmark</th>
+    <th align="center">Pretrained model</th>
+    <th align="center">Visual Results</th>
+  </tr>
+  <tr>
+    <td align="left">SPAD</td>
+    <td align="center"><a href="https://pan.baidu.com/s/1lHWbvsFFpbvja_vEcvnpqA">(code:gd8j)</a></td>
+    <td align="center"><a href="https://pan.baidu.com/s/1duMbd4L0rvrWvxv9wnW2eg">(code:ntgp)</a></td>
+  </tr>
+  <tr>
+    <td align="left">AGAN</td>
+    <td align="center"><a href="https://pan.baidu.com/s/1Ki2kmibr515dCJmbdlpMhQ">(code:dqml)</a></td>
+    <td align="center"><a href="https://pan.baidu.com/s/1cPbbsNM6i5ufyzIqPJz60g">(code:ul55)</a></td>
+  </tr>
+  <tr>
+    <td align="left">SOTS</td>
+    <td align="center"><a href="https://pan.baidu.com/s/117lm0l06YW1RuFzDPLiMZA">(code:aagq)</a></td>
+    <td align="center"><a href="https://pan.baidu.com/s/1N-ZVnL3oGRy3voJ3Fl-YtQ">(code:9ssj)</a></td>
+  </tr>
+    <tr>
+    <td align="left">GoPro</td>
+    <td align="center"><a href="https://pan.baidu.com/s/1WjEISK2AntfdYOrrMwZOZw">(code:lhds)</a></td>
+    <td align="center"><a href="https://pan.baidu.com/s/1EkXTI968Cyu7UnKwdgymag">(code:764e)</a></td>
+  </tr>
+    <tr>
+    <td align="left">TIP18</td>
+    <td align="center"><a href="https://pan.baidu.com/s/1NPmeAIZkVz7DkLVJxuonIw">(code:l13v)</a></td>
+    <td align="center"><a href="https://pan.baidu.com/s/1tLGRx2pvogS0Sl7fpmloNQ">(code:9und)</a></td>
+  </tr>
+
+</table>
+
+
 ## Citation
 If you find this project useful, please consider citing:
 
